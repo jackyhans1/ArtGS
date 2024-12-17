@@ -12,7 +12,4 @@ Code will be realesed soon.
 
 ## Interactable Replicas
 ![real_scene](assets/images/real_scene.png)
-![real_scene](assets/videos/isaac.gif)
-
-
-
+<img src="assets/videos/isaac.gif" width="100%" />

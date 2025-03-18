@@ -40,7 +40,7 @@ def generate_camera_poses(args, N=30):
     - poses: A list of camera poses (4x4 transformation matrices).
     """
     poses = []
-    file = json.load(open(f'data/demo/cam_traj.json'))
+    file = json.load(open(f'./arguments/cam_traj.json'))
     traj_info = file[args.dataset][args.subset][args.scene_name]
     radius, r_theta, r_phi = traj_info['radius'], traj_info['theta'], traj_info['phi']
     d_theta, d_phi = traj_info['d_theta'], traj_info['d_phi']

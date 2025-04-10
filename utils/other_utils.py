@@ -151,7 +151,7 @@ def match_gaussians(path, cano_gs, num_slots, visualize=False):
         x_s = xyzs[s][mask_static[s]]
         x_matched = (xyzs[0][idx[0]] + xyzs[1][idx[1]]) * 0.5
         x = np.concatenate([x_s, x_matched])
-        color = np.concatenate([pallete[0].repeat(x_s.shape[0], 0), pallete[1].repeat(x_matched.shape[0], 0)])
+        color = np.concatenate([pallete[0:1].repeat(x_s.shape[0], 0), pallete[1:2].repeat(x_matched.shape[0], 0)])
         point_cloud.points = o3d.utility.Vector3dVector(x)
         point_cloud.colors = o3d.utility.Vector3dVector(color)
         o3d.visualization.draw_geometries([point_cloud])

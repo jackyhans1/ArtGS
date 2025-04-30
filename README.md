@@ -71,7 +71,7 @@ pip install ./submodules/simple-knn
 In our experiments, we used NVIDIA CUDA 12.1 on Ubuntu 22.04. You may need to modify the installation command according to your CUDA version.
 
 ## Data Preparation 
-Download the data from [GoogleDrive](https://drive.google.com/file/d/19EjgNX-vzXVpMagvroChZnaB4RhUVMG4/view?usp=sharing) or [HuggingFace](https://huggingface.co/datasets/YuLiu/ArtGS-Dataset).
+Download the data from [GoogleDrive](https://drive.google.com/drive/folders/1h2axr5TCYKnYHZ8ZPTJeb5qTm-f7UNEG?usp=sharing) or [HuggingFace](https://huggingface.co/datasets/YuLiu/ArtGS-Dataset).
 
 ## Training
 We provide the following files and scripts for training:
